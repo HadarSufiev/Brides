@@ -97,6 +97,16 @@ button:hover {
   background: #218838; /* green hover */
 }
 
+#message {
+  width: 100%;       /* fills the form width */
+  height: 150px;     /* sets the height */
+  padding: 5px;     /* space inside the textarea */
+  font-size: 16px;   /* text size */
+  border-radius: 10px;
+  border: 5px solid #ccc;
+  resize: vertical;  /* user can resize vertically only */
+}
+
 /* Footer */
 footer {
   text-align: center;
